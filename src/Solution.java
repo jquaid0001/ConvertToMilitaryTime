@@ -27,10 +27,8 @@ class Result {
             e.printStackTrace();
         }
 
-        String result = null;
-
         if (twelveHour != null) {
-            return result = twentyFourHourFormat.format(twelveHour);
+            return twentyFourHourFormat.format(twelveHour);
         }
 
         return "Error converting time to 24 hour";
